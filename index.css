@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.container{
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.profile-image{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-1{
+  background-image: url('img/WIN_20240322_11_38_24_Pro.jpg');
+}
+.image-2{
+  background-image: url('img/Screenshot_20240906-113033_1.png');
+}
+
+.profile-information{
+  line-height: 1.9;
+}
+.container-image{
+  height: 300px;
+  width: 470px;
+  background-image: url('img/Carrot\ light.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 28px;
+}
